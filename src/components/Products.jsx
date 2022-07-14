@@ -63,6 +63,17 @@ const Products = () => {
                 </Card.Body>
             </Card>
             <Card className="cards" style={{ width: '18rem' }}>
+                <Card.Img className="card-img"variant="top" src={khaditowel} height="180px" width="180px" />
+                <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </Card.Text>
+                    
+                </Card.Body>
+            </Card>
+            <Card className="cards" style={{ width: '18rem' }}>
                 <Card.Img className="card-img" variant="top" src={bedsheet} height="180px" width="180px" />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>

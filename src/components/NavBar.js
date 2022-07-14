@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
-// import About from './About'
+import logo from '../static/logo.jpg'
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
@@ -9,7 +9,7 @@ const NavBar = () => {
 
       <Navbar collapseOnSelect expand="lg"  variant="light" className="mynav">
         <Container fluid>
-          <Navbar.Brand className="brand"href="/">KhadiIndia</Navbar.Brand>
+          <Navbar.Brand className="brand"href="/"><img src={logo} width='30' height='30' className="nav-logo" />KhadiIndia</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav

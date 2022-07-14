@@ -37,12 +37,22 @@ code {
   background-color: #fff;
 }
 
+.nav-logo{
+  margin-right: 30px !important;
+  margin-left: 30px;
+  width: 50px;
+  height: auto;
+}
+
 .navlink {
   font-weight: bold;
   font-family: 'Nunito', sans-serif;
   color: #fff;
   font-size: 1rem;
   margin: 5px;
+  /* border: 1px solid rgb(57, 70, 212);
+  border-radius: 30px; */
+  color: rgb(89, 100, 216) !important;
 }
 
 .navlink:hover, .navactive{
@@ -129,14 +139,14 @@ code {
 }
 
 .card-img{
-  -webkit-clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
-  clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+  -webkit-clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
+clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
 }
 
 .c-img {
   height: 90vh !important;
-  -webkit-clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
-clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+  -webkit-clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
+  clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
 }
 
 .footer {
@@ -237,6 +247,8 @@ clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
 .brand{
   color: darkblue !important;
   font-weight: bold;
+  font-size: 2rem !important;
+  font-family: 'Nunito', sans-serif;
 }
 
 .mybtn{
