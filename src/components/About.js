@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import NavBar from './NavBar'
-import Footer from "./Footer";
+
 import aboutus1 from '../static/aboutus1.jpeg'
 import aboutus2 from '../static/aboutus2.jpeg'
  

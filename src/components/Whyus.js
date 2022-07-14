@@ -1,7 +1,7 @@
 import React from "react";
 import './whyus.css' 
 import NavBar from './NavBar'
-import Footer from "./Footer";
+
 import whyus from '../static/whyus.jpeg'
 const Whyus = () => {
   return (
