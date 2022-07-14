@@ -52,14 +52,14 @@ code {
   margin: 5px;
   /* border: 1px solid rgb(57, 70, 212);
   border-radius: 30px; */
-  color: rgb(89, 100, 216) !important;
+  /* color: rgb(89, 100, 216) !important; */
 }
 
 .navlink:hover, .navactive{
   border-radius: 30px;
   background-color: rgb(87, 87, 183);
   color: white !important;
-  
+  font-weight: lighter;
 }
 
 .left-pannel {
