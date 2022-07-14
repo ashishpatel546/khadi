@@ -7,9 +7,9 @@ const NavBar = () => {
   return (
     <>
 
-      <Navbar collapseOnSelect expand="lg"  variant="dark" className="mynav">
+      <Navbar collapseOnSelect expand="lg"  variant="light" className="mynav">
         <Container fluid>
-          <Navbar.Brand href="/">Khadi</Navbar.Brand>
+          <Navbar.Brand className="brand"href="/">KhadiIndia</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav
@@ -18,12 +18,12 @@ const NavBar = () => {
               navbarScroll
               activeKey={window.location.pathname}
             >
-              <Nav.Link className="navlink" as={Link} to="/" active={window.location.pathname=='/'?'active':""}> Home</Nav.Link>
-              <Nav.Link className="navlink" as={Link} to="/about" active={window.location.pathname=='/about'?'active':""}>AboutUs</Nav.Link>
-              <Nav.Link className="navlink" as={Link} to="/whyus" active={window.location.pathname=='/whyus'?'active':""}>WhyUs?</Nav.Link>
-              <Nav.Link className="navlink" as={Link} to="/products" active={window.location.pathname=='/products'?'active':""}>Products</Nav.Link>
-              <Nav.Link className="navlink" as={Link} to="/tenders" active={window.location.pathname=='/tenders'?'active':""}>Tenders</Nav.Link>
-              <Nav.Link className="navlink" as={Link} to="/contact" active={window.location.pathname=='/contact'?'active':""}>Contact Us</Nav.Link>
+              <Nav.Link className={`navlink ${window.location.pathname=='/'?'navactive':""}`} as={Link} to="/"> Home</Nav.Link>
+              <Nav.Link className={`navlink ${window.location.pathname=='/about'?'navactive':""}`} as={Link} to="/about">AboutUs</Nav.Link>
+              <Nav.Link className={`navlink ${window.location.pathname=='/whyus'?'navactive':""}`} as={Link} to="/whyus" active={window.location.pathname=='/whyus'?'active':""}>WhyUs?</Nav.Link>
+              <Nav.Link className={`navlink ${window.location.pathname=='/products'?'navactive':""}`} as={Link} to="/products" active={window.location.pathname=='/products'?'active':""}>Products</Nav.Link>
+              <Nav.Link className={`navlink ${window.location.pathname=='/tenders'?'navactive':""}`} as={Link} to="/tenders" active={window.location.pathname=='/tenders'?'active':""}>Tenders</Nav.Link>
+              <Nav.Link className={`navlink ${window.location.pathname=='/contact'?'navactive':""}`} as={Link} to="/contact" active={window.location.pathname=='/contact'?'active':""}>Contact Us</Nav.Link>
             </Nav>
             {/* <Form className="d-flex">
         <FormControl

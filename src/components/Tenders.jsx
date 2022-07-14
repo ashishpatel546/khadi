@@ -8,8 +8,9 @@ import ExampleDoc from '../static/tenders/1912910_Assignment1.pdf'
 const Tenders = () => {
     return (
         <>
-        <div className="tender">
-            <NavBar />
+        <NavBar />
+        <div className="tender container mt-3">
+            
             <h1 className="text-center mt-5 mb-5 about-text" >Tenders</h1>
 
             

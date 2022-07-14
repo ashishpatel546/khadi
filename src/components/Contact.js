@@ -5,6 +5,7 @@ import contact from '../static/contact.jpg';
 import { BsFacebook, BsLinkedin } from 'react-icons/bs';
 import { AiFillTwitterCircle } from 'react-icons/ai';
 import { SiWhatsapp } from 'react-icons/si';
+import {IoLocationSharp} from 'react-icons/io5'
 import './contact.css';
 import NavBar from './NavBar';
 import Footer from './Footer';
@@ -15,11 +16,11 @@ const Contact = () => {
       <h1 className="head about-text">CONTACT-US</h1>
       <div className="row">
         <div className="col-sm-6">
-          <img className="d-block w-100" src={contact} alt="Third slide" />
+          <img className="d-block w-100 contact-img" src={contact} alt="Third slide" />
         </div>
 
         <div className="col-sm-6 row  contact-container">
-          <h4 className="text-center">
+          <h5 className="text-center">
             Would you like to get in touch?
             <br />
             Please write to us at <strong>test@test.com</strong>
@@ -27,7 +28,7 @@ const Contact = () => {
             <br />
             <br />
             --Connect On Social Media--
-          </h4>
+          </h5>
           <div className="icons-container text-center">
             <h2 className="icons text-center">
               <BsFacebook color="blue" />
@@ -50,6 +51,8 @@ const Contact = () => {
               </a>
             </h2>
           </div>
+          <h2><IoLocationSharp color="red"/></h2>
+          <h5 className='text-center'><strong>Address:</strong>1144,Tower B2<br/>SPAZE Itech Park</h5>
         </div>
       </div>
     </>

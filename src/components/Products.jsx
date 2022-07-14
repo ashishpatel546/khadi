@@ -25,12 +25,12 @@ const Products = () => {
         <div className="set-footer">
             <div className="remove-margin">
             <NavBar />
-            <h1 className="text-center mt-5 mb-5 about-text">Products</h1>
-            <h2 className="text-center mb-5 mt-5">Existing Products</h2>
+            <h1 className="text-center mt-3 mb-3 about-text">Products</h1>
+            <h2 className="text-center mb-3 mt-3 sub-head">Existing Products</h2>
             <div className="ex-cards-container container">
               
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={colored_khadi} height="200px" width="200px" />
+            <Card className="cards" style={{ width: '18rem' }}>
+                <Card.Img className="card-img" variant="top" src={colored_khadi} height="180px" width="180px" />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
@@ -40,8 +40,8 @@ const Products = () => {
                     
                 </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={dari}  height="200px" width="200px"/>
+            <Card className="cards" style={{ width: '18rem' }}>
+                <Card.Img className="card-img" variant="top" src={dari}  height="180px" width="180px"/>
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
@@ -51,8 +51,8 @@ const Products = () => {
                     
                 </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={khaditowel} height="200px" width="200px" />
+            <Card className="cards" style={{ width: '18rem' }}>
+                <Card.Img className="card-img"variant="top" src={khaditowel} height="180px" width="180px" />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
@@ -62,8 +62,8 @@ const Products = () => {
                     
                 </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={bedsheet} height="200px" width="200px" />
+            <Card className="cards" style={{ width: '18rem' }}>
+                <Card.Img className="card-img" variant="top" src={bedsheet} height="180px" width="180px" />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
@@ -73,8 +73,8 @@ const Products = () => {
                     
                 </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={khadibedsheet} height="200px" width="200px" />
+            <Card className="cards" style={{ width: '18rem' }}>
+                <Card.Img className="card-img"variant="top" src={khadibedsheet} height="180px" width="180px" />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
@@ -86,11 +86,11 @@ const Products = () => {
             </Card>
            </div>
 
-           <h2 className="text-center mb-5 mt-5">Proposed Products</h2>
+           <h2 className="text-center mb-5 mt-5 subhead">Proposed Products</h2>
 
            <div className="pr-cards-container container"> 
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={ladies} height="200px" width="" />
+            <Card className="cards" style={{ width: '18rem' }}>
+                <Card.Img className="card-img"variant="top" src={ladies} height="180px" width="" />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
@@ -100,42 +100,8 @@ const Products = () => {
                     
                 </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={ladies_party} height="200px" width="200px" />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                    </Card.Text>
-                    
-                </Card.Body>
-            </Card>
-            
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={ladies_suit} height="200px" width="200px" />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                    </Card.Text>
-                    
-                </Card.Body>
-            </Card>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={modern} height="200px" width="200px" />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                    </Card.Text>
-                    
-                </Card.Body>
-            </Card>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={party_ladies} height="200px" width="200px" />
+            <Card className="cards" style={{ width: '18rem' }}>
+                <Card.Img className="card-img"variant="top" src={ladies_party} height="180px" width="180px" />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
@@ -146,8 +112,42 @@ const Products = () => {
                 </Card.Body>
             </Card>
             
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={khadi_ladies} height="200px" width="200px"/>
+            <Card className="cards" style={{ width: '18rem' }}>
+                <Card.Img className="card-img"variant="top" src={ladies_suit} height="180px" width="180px" />
+                <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </Card.Text>
+                    
+                </Card.Body>
+            </Card>
+            <Card className="cards" style={{ width: '18rem' }}>
+                <Card.Img className="card-img"variant="top" src={modern} height="180px" width="180px" />
+                <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </Card.Text>
+                    
+                </Card.Body>
+            </Card>
+            <Card className="cards" style={{ width: '18rem' }}>
+                <Card.Img className="card-img"variant="top" src={party_ladies} height="180px" width="180px" />
+                <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </Card.Text>
+                    
+                </Card.Body>
+            </Card>
+            
+            <Card className="cards" style={{ width: '18rem' }}>
+                <Card.Img className="card-img"variant="top" src={khadi_ladies} height="180px" width="180px"/>
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
@@ -159,12 +159,12 @@ const Products = () => {
             </Card>
             </div>
 
-            <h3 className="text-center mb-5 mt-5">Products With the use of recycled and upcycled materials
+            <h3 className="text-center mb-5 mt-5 sub-head">Products With the use of recycled and upcycled materials
 </h3>
 
            <div className="re-cards-container container"> 
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={pic1}height="200px" width="200px" />
+            <Card className="cards" style={{ width: '18rem' }}>
+                <Card.Img className="card-img"variant="top" src={pic1}height="180px" width="180px" />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
@@ -174,42 +174,8 @@ const Products = () => {
                     
                 </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={pic2} height="200px" width="200px" />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                    </Card.Text>
-                    
-                </Card.Body>
-            </Card>
-            
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={pic3} height="200px" width="200px" />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                    </Card.Text>
-                    
-                </Card.Body>
-            </Card>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={pic4} height="200px" width="200px" />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                    </Card.Text>
-                    
-                </Card.Body>
-            </Card>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={pic5} height="200px" width="200px" />
+            <Card className="cards" style={{ width: '18rem' }}>
+                <Card.Img className="card-img"variant="top" src={pic2} height="180px" width="180px" />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
@@ -220,8 +186,42 @@ const Products = () => {
                 </Card.Body>
             </Card>
             
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={pic6} height="200px" width="200px"/>
+            <Card className="cards" style={{ width: '18rem' }}>
+                <Card.Img className="card-img"variant="top" src={pic3} height="180px" width="180px" />
+                <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </Card.Text>
+                    
+                </Card.Body>
+            </Card>
+            <Card className="cards" style={{ width: '18rem' }}>
+                <Card.Img className="card-img"variant="top" src={pic4} height="180px" width="180px" />
+                <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </Card.Text>
+                    
+                </Card.Body>
+            </Card>
+            <Card className="cards" style={{ width: '18rem' }}>
+                <Card.Img className="card-img"variant="top" src={pic5} height="180px" width="180px" />
+                <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </Card.Text>
+                    
+                </Card.Body>
+            </Card>
+            
+            <Card className="cards" style={{ width: '18rem' }}>
+                <Card.Img className="card-img"variant="top" src={pic6} height="180px" width="180px"/>
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
