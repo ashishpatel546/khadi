@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 import { Table } from "react-bootstrap";
-import Footer from "./Footer";
+
 import Button from "react-bootstrap/Button";
 import ExampleDoc from '../static/tenders/1912910_Assignment1.pdf'
 

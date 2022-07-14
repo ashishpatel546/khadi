@@ -8,7 +8,7 @@ import { SiWhatsapp } from 'react-icons/si';
 import {IoLocationSharp} from 'react-icons/io5'
 import './contact.css';
 import NavBar from './NavBar';
-import Footer from './Footer';
+
 const Contact = () => {
   return (
     <>

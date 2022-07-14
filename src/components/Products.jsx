@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
-import Footer from "./Footer";
+
 import { Card } from "react-bootstrap";
 import colored_khadi from "../static/colored khadi.jpg";
 import dari from "../static/dari.png";
