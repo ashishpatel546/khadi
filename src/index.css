@@ -238,3 +238,21 @@ clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
   color: darkblue !important;
   font-weight: bold;
 }
+
+.mybtn{
+  text-decoration: none;
+  border-radius: 30px;
+  background-color: rgb(87, 87, 183);
+  color: white !important;
+  padding: 5px 8px;
+
+}
+
+.mybtn:hover{
+  font-weight: bold;
+  background:transparent;
+  color: rgb(87, 87, 183) !important;
+  text-decoration: none;
+  border: 1px solid rgb(87, 87, 183);
+
+}
