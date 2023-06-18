@@ -136,6 +136,7 @@ code {
    background-color: white !important;
    box-shadow: 3px 3px 10px green;
    transform: scale(1.05);
+   border-radius: 30px;
 }
 
 .card-img{
@@ -174,18 +175,22 @@ clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
 .gallery-img {
   height: 250px;
   width: 260px;
+  border-radius: 20px;
   box-shadow: 3px 3px 10px black;
-  transition: all 0.8s;
+  transition: all 0.5s;
 }
 .gallery-img:hover {
   transform: scale(1.1);
   animation: backwards;
+  border-radius: 40px;box-shadow: 8px 8px 20px white;
 }
 .gallery-container {
-  background-color: rgb(190, 221, 190);
+  /* background-color: rgb(206, 201, 249); */
+  background-color: rgb(190, 221, 194);
   color: white;
   padding: 1px;
   margin: 10px;
+  border-radius: 20px;
 }
 
 .gallery-text {
@@ -205,8 +210,11 @@ clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
 }
 
 .about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(190, 221, 190);
-  margin: 10px;
+  margin: auto;
   box-shadow: 3px 3px 10px black;
 }
 
